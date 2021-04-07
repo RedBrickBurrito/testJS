@@ -1,5 +1,5 @@
 var assert = require('assert');
-var javascriptFunctions = require('./javascriptFunctions');
+var javascriptFunctions = require('../javascriptFunctions');
 
 describe('givenTwoIntegersWhenSumThenSuccess', function () {
     it('sum(1, 2) = 3', function() {
