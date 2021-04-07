@@ -1,10 +1,6 @@
 function convert(decimal) {
     
-    if(decimal == 8) {
-        return 10;
-    }
-    
-    return decimal;
+    return parseInt(decimal.toString(8));
 }
 
 exports.convert = convert;
