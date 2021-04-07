@@ -1,6 +1,6 @@
 function convert(decimal) {
-    
-    return parseInt(decimal.toString(8));
+    const base = 8;
+    return parseInt(decimal.toString(base));
 }
 
 exports.convert = convert;
