@@ -14,3 +14,17 @@ describe('givenDecimalWhenConvertThenOctal1', function () {
         assert.strictEqual(expectedResult, actualResult);
     })
 })
+
+describe('givenDecima2WhenConvertThenOctal2', function () {
+    it('convert(2) = 2', function() {
+        //Given
+        var a = 2;
+        var expectedResult = 2;
+
+        //When
+        var actualResult = OctalConverter.convert(a);
+
+        //Then
+        assert.strictEqual(expectedResult, actualResult);
+    })
+})
